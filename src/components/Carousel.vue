@@ -1,6 +1,6 @@
 <template>
 	<section
-		class="w-full h-screen flex justify-center items-center  "
+		class="w-full h-screen flex justify-center items-start  "
 	>
 		<article class="w-full h-screen">
 		
@@ -13,7 +13,7 @@
 				<!-- SECTION cards -->
 				<div
 					id="flippable-carousel-flip"
-					class="w-full absolute overflow-hidden flex items-center mt-24"
+					class="w-full absolute overflow-hidden flex items-center mt-2"
 				>
 					<FlippableCard
 						v-for="(card, cardIndex) in flippableCardInfos"
@@ -27,7 +27,7 @@
 				<!-- SECTION navigation -->
 				<div
 					id="flippable-carousel-navigator"
-					class="absolute left-1/2 transform -translate-x-1/2 z-50 flex items-top h-card-mobile lg:h-card-web mt-48"
+					class="absolute left-1/2 transform -translate-x-1/2 z-50 flex items-top h-card-mobile lg:h-card-web mt-28"
 					v-touch:swipe.lefe="(e) => slideToSelectedCard(e, 'NEXT')"
 					v-touch:swipe.right="(e) => slideToSelectedCard(e, 'PREV')"
 				>
