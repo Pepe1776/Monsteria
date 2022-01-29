@@ -3,7 +3,7 @@ $desktop-width: 1024px;
 $card-size: 400px;
 $mobile-size: 200px;
 $image-size: 400px;
-$primary-blue: #08a0f7;
+$primary-blue: #08f728;
 
 /* mixin */
 @mixin cardResizer($arg...) {
@@ -40,12 +40,12 @@ $primary-blue: #08a0f7;
 @keyframes flux {
 	0%,
 	100% {
-		text-shadow: 0 0 1vw #1041ff;
-		color: #28d7fe;
+		text-shadow: 0 0 1vw #03941b;
+		color: #00ff2a;
 	}
 	50% {
-		text-shadow: 0 0 0.5vw #082180;
-		color: #146c80;
+		text-shadow: 0 0 0.5vw #026e0b;
+		color: #357c06;
 	}
 }
 

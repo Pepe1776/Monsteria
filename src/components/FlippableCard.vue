@@ -29,7 +29,7 @@
 						id="flippable-carousel-flip-card-back-index"
 						class="text-2xl lg:text-7xl font-bold neon-text"
 					>
-						{{ `0${cardIndex + 1} FlipCard` }}
+						{{ `0${cardIndex + 1} Monstera` }}
 					</div>
 				</div>
 			</div>
