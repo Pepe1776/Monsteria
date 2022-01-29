@@ -33,9 +33,10 @@ export default {
     }
     .section {
     position: absolute;
-  top: 80%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
+  margin-top: 50px;
     }
     .types-item { 
       margin-top: 15px;
