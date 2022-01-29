@@ -36,7 +36,7 @@ export default {
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 50px;
+  margin-top: 35px;
     }
     .types-item { 
       margin-top: 15px;
